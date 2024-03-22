@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Insere</class>
+ <widget class="QDialog" name="Insere">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1205</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Inserer une structure</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imgs.qrc">
+    <normaloff>:/imgs/images/gainde.png</normaloff>:/imgs/images/gainde.png</iconset>
+  </property>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>1141</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Nom de la structure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="txtNom">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Industrie de la structure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="txtIndustrie">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Secteur de la structure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="txtSecteur">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Lien de la structure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="txtLien">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Vocation de la structure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="txtVocation">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Description de la structure</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QTextEdit" name="txtDescription">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/imgs/images/gainde-blanc.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Inserer une structure</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEnregistrer">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>458</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Enregistrer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEffacer">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>458</y>
+     <width>83</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Effacer</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Affiche</class>
+ <widget class="QDialog" name="Affiche">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1650</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Base de donnees</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imgs.qrc">
+    <normaloff>:/imgs/images/gainde.png</normaloff>:/imgs/images/gainde.png</iconset>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>1611</width>
+     <height>561</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1650</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/imgs/images/gainde-blanc.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Base de données</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

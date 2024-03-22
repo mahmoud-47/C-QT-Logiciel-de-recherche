@@ -1,0 +1,6 @@
+============================ Guide d'utilisation GaindeSett ============================
+- Telecharger QT Creator (QT5)
+- Ouvrir GaindeSett/GaindeSett.pro dans le logiciel
+- Aller dans l'onglet project de QT Creator et modifier le chemin de compilation vers ou vous voulez
+- Deplacer GaindeSettDB vers Document
+- Faites des recherches Tres rapides avec GaindeSett

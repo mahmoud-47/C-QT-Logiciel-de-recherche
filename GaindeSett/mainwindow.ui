@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1700</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1276</width>
+    <height>614</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Gainde Sett</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imgs.qrc">
+    <normaloff>:/imgs/images/gainde-blanc.png</normaloff>:/imgs/images/gainde-blanc.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>580</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Charger la base</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>580</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Afficher la base</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>580</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Taille de la base</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>519</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Raccourcis :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>1041</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(173, 173, 173);
+border-radius:10;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>392</x>
+      <y>69</y>
+      <width>281</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/imgs/images/gainde.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>160</y>
+      <width>391</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Veuillez charger la base de donnees</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>110</y>
+      <width>721</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Emoji</family>
+      <pointsize>27</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bienvenue Sur Gainde SETT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1700</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBase">
+    <property name="title">
+     <string>Base</string>
+    </property>
+    <addaction name="actionCharger"/>
+    <addaction name="actionCharger_2"/>
+    <addaction name="actionTaille"/>
+    <addaction name="actionSauvegarder"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuStructure">
+    <property name="title">
+     <string>Structure</string>
+    </property>
+    <addaction name="actionRechercher"/>
+    <addaction name="actionnserer"/>
+    <addaction name="actionSupprimer"/>
+    <addaction name="separator"/>
+    <addaction name="actionNombre_de_lignes"/>
+   </widget>
+   <widget class="QMenu" name="menuFonctionHachage">
+    <property name="title">
+     <string>FonctionHachage</string>
+    </property>
+    <addaction name="actionf1"/>
+    <addaction name="actionf2"/>
+    <addaction name="actionf3"/>
+    <addaction name="separator"/>
+    <addaction name="actionSansHach"/>
+   </widget>
+   <widget class="QMenu" name="menuCourbes_de_comparaison">
+    <property name="title">
+     <string>Courbes de comparaison</string>
+    </property>
+    <addaction name="SommeAsciiSanshachage"/>
+    <addaction name="djb2Hash_Sanshachage"/>
+    <addaction name="bernstein_Sanshachage"/>
+    <addaction name="SommeAscii_djb2Hash"/>
+    <addaction name="SommeAscii_bernstein"/>
+    <addaction name="djb2Hash_bernstein"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionHachage_Actuelle"/>
+   </widget>
+   <addaction name="menuBase"/>
+   <addaction name="menuStructure"/>
+   <addaction name="menuFonctionHachage"/>
+   <addaction name="menuCourbes_de_comparaison"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCharger">
+   <property name="icon">
+    <iconset theme="zoom-in">
+     <normaloff/>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Charger</string>
+   </property>
+  </action>
+  <action name="actionCharger_2">
+   <property name="text">
+    <string>Afficher</string>
+   </property>
+  </action>
+  <action name="actionTaille">
+   <property name="text">
+    <string>Taille</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionRechercher">
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+  </action>
+  <action name="actionnserer">
+   <property name="text">
+    <string>Insérer</string>
+   </property>
+  </action>
+  <action name="actionSupprimer">
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionf1">
+   <property name="text">
+    <string>fonctionHachageSommeASCII</string>
+   </property>
+  </action>
+  <action name="actionf2">
+   <property name="text">
+    <string>fonctionHachagedjb2Hash</string>
+   </property>
+  </action>
+  <action name="actionf3">
+   <property name="text">
+    <string>bernstein</string>
+   </property>
+  </action>
+  <action name="actionSansHach">
+   <property name="text">
+    <string>SansHach</string>
+   </property>
+  </action>
+  <action name="SommeAsciiSanshachage">
+   <property name="text">
+    <string>SommeAscii/Sans hachage</string>
+   </property>
+  </action>
+  <action name="djb2Hash_Sanshachage">
+   <property name="text">
+    <string>djb2Hash/Sans hachage</string>
+   </property>
+  </action>
+  <action name="bernstein_Sanshachage">
+   <property name="text">
+    <string>bernstein/Sans hachage</string>
+   </property>
+  </action>
+  <action name="SommeAscii_djb2Hash">
+   <property name="text">
+    <string>SommeAscii/djb2Hash</string>
+   </property>
+  </action>
+  <action name="SommeAscii_bernstein">
+   <property name="text">
+    <string>SommeAscii/bernstein</string>
+   </property>
+  </action>
+  <action name="djb2Hash_bernstein">
+   <property name="text">
+    <string>djb2Hash/bernstein</string>
+   </property>
+  </action>
+  <action name="actionNombre_de_lignes">
+   <property name="text">
+    <string>Nombre de lignes</string>
+   </property>
+  </action>
+  <action name="actionHachage_Actuelle">
+   <property name="text">
+    <string>Hachage Actuelle</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

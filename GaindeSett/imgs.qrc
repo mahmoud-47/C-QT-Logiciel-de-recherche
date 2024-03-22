@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>images/building.jpg</file>
+        <file>images/companie.jpg</file>
+        <file>images/gainde.png</file>
+        <file>images/gainde-blanc.png</file>
+    </qresource>
+</RCC>
